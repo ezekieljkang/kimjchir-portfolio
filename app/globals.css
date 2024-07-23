@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-primary;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url('/fonts/roboto-mono.woff2') format('woff2'),
+       url('/fonts/roboto-mono.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Clash Display';
+  src: url('/fonts/clash-display.woff2') format('woff2'),
+       url('/fonts/clash-display.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/satoshi.woff2') format('woff2'),
+       url('/fonts/satoshi.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
