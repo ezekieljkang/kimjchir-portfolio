@@ -18,7 +18,7 @@ const NavBar = () => {
   };
 
   const [tooltipVisible, setTooltipVisible] = useState(false);
-  const email = 'KIMBERLYJCHIR@GMAIL.COM';
+  const email = 'KIMBERLYCHIR@GMAIL.COM';
 
   const handleEmailClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault(); // Prevent default link behavior

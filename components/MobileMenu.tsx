@@ -4,7 +4,7 @@ import Tooltip from './ToolTip'; // Adjust the path as needed
 
 const MobileMenu = () => {
   const [tooltipVisible, setTooltipVisible] = useState(false);
-  const email = 'KIMBERLYJCHIR@GMAIL.COM';
+  const email = 'KIMBERLYCHIR@GMAIL.COM';
 
   const handleEmailClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault(); // Prevent default link behavior
