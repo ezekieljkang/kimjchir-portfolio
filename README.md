@@ -1,21 +1,21 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Portfolio Website
+# Portfolio Website
 
 Welcome to my portfolio website! This project showcases my work as a Product/UX Designer specializing in digital media and publishing brands. Built using Next.js, this site features a dynamic and responsive design to highlight my skills, projects, and testimonials effectively.
 
-# Project Overview
+## Project Overview
 
 This portfolio website is built with Next.js, a popular React framework that enables server-side rendering and static site generation. It is configured to be deployed on GitHub Pages, ensuring seamless integration with GitHub's hosting services for fast and reliable delivery.
 
-# Features
+## Features
 
 - Dynamic Content: Showcases my work and skills with interactive elements and smooth transitions.
 - Responsive Design: Optimized for various screen sizes to ensure a great user experience on both desktop and mobile devices.
 - Testimonials Section: Displays feedback from clients and colleagues with a carousel for easy navigation.
 - Secure Access: Includes a password-protected area for exclusive content, demonstrating my skills in implementing secure authentication.
 
-# Technologies Used
+## Technologies Used
 
 - Next.js: Framework for building server-rendered React applications.
 - React: Library for building user interfaces.
@@ -24,7 +24,7 @@ This portfolio website is built with Next.js, a popular React framework that ena
 - GitHub Pages: Hosting service for deploying static sites.
 - Lottie: Library for rendering animations.
 
-# Configuration for GitHub Pages
+## Configuration for GitHub Pages
 
 To deploy the Next.js project on GitHub Pages, the following configuration changes were made:
 
@@ -91,14 +91,14 @@ jobs:
         uses: actions/deploy-pages@v4
 ```
 
-# Deployment
+## Deployment
 
 The project is automatically deployed to GitHub Pages via GitHub Actions. Once changes are pushed to the main branch, the workflow will build and deploy the site.
 
-# Contributing
+## Contributing
 
 Feel free to open issues or submit pull requests if you have any suggestions or improvements!
 
-# Contact
+## Contact
 
 For any inquiries or to discuss potential collaborations, please reach out to me at ezekieljkang@gmail.com.
