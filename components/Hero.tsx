@@ -19,7 +19,7 @@ const Hero = () => {
               I&apos;ve been designing digital products with media and publishing brands since 2021. My passion is to make an impact in people&apos;s everyday lives.
             </p>
           </div>
-          <Image src="/star.SVG" alt="star" width={16} height={20} />
+          <Image src="/star.svg" alt="star" width={16} height={20} />
         </div>
         <div className='md:flex-1 py-[2rem] flex items-center'>
           <div className='relative w-full' style={{paddingBottom: '75%'}}>
