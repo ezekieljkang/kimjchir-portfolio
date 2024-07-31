@@ -4,8 +4,10 @@ import React, { useState, useEffect } from 'react';
 import { testimonials } from '../data/index';
 import Testimonial from './Testimonial';
 import WordCap from './WordCap';
+import Image from 'next/image';
 
 const TestimonialSection: React.FC = () => {
+  const prefix = '/kimjchir-portfolio';
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isSmallScreen, setIsSmallScreen] = useState(false);
 
@@ -43,10 +45,10 @@ const TestimonialSection: React.FC = () => {
       <div className='md:flex border-b border-black md:pb-[3.5rem] gap-[5%]'>
         <div className='flex-1 flex flex-col justify-between'>
           <h3 className='text-[40px] md:text-[78px] font-[500] font-clashDisplay'>TESTIMONIALS</h3>
-          <img src="/testimonialstar.svg" alt="testimonial star" className='hidden md:block md:w-20' />
+          <Image src={`${prefix}/testimonialstar.svg`} alt="testimonial star" width={80} height={80} className='hidden md:block md:w-20' />
         </div>
         <div className="flex-1 flex flex-col md:pl-[4rem] md:border-l md:border-black pt-[1rem] md:pt-0 relative min-h-[480px]">
-          <img src="/quote.svg" alt="" className='hidden md:block md:w-20 relative top-0 left-0' />
+          <Image src={`${prefix}/quote.svg`} alt="star" width={88} height={59} className='hidden md:block md:w-20 relative top-0 left-0' />
           <div className='flex-1 flex flex-col pr-[2rem]'>
             <Testimonial
               quote={

@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from './NavBar';
+import Image from 'next/image';
 
 interface HeaderProps {
   company: string;
@@ -11,6 +12,8 @@ interface HeaderProps {
 }
 
 const CSHero: React.FC<HeaderProps> = ({ company, heading, content, timeline, role, tools }) => {
+  const prefix = '/kimjchir-portfolio';
+
   return (
     <div className='px-[3rem]'>
       <NavBar />
@@ -19,7 +22,7 @@ const CSHero: React.FC<HeaderProps> = ({ company, heading, content, timeline, ro
         <div className='flex justify-between py-[3.5rem] border-b border-black gap-[3rem]'>
           <div className='basis-2/3'>
             <div className='border-r border-black'>
-              <img src={company} alt='company logo' className='pb-[14px]' />
+              <Image src={`${prefix}/${company}`} alt="star" width={120} height={18} className='pb-[14px]' />
               <h1 className='text-[78px] font-[500] font-clashDisplay'>{heading}</h1>
               <p className='font-satoshi font-normal text-[28px]'>{content}</p>
             </div>
