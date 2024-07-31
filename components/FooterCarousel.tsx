@@ -1,4 +1,8 @@
+import Image from 'next/image';
+
 const FooterCarousel = () => {
+  const prefix = process.env.NODE_ENV === 'production' ? '/kimjchir-portfolio' : '';
+
   return (
     <div>
       <div className="flex animate-infinite-scroll repeat-infinite space-x-8">
@@ -17,7 +21,7 @@ const FooterCarousel = () => {
                 </span>
               </a>
             </div>
-            <img src='/star.svg' alt='star' className='size-4 lg:size-6' />
+            <Image src={`${prefix}/star.svg`} alt="star" width={23} height={23} />
           </div>
         ))}
       </div>

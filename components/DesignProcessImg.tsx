@@ -1,10 +1,13 @@
 import React from 'react';
+import Image from 'next/image';
 
 const DesignProcessImg = () => {
+  const prefix = process.env.NODE_ENV === 'production' ? '/kimjchir-portfolio' : '';
+
   return (
     <div className='pl-[3.5rem] border-l border-black h-full'>
       <div className='pb-[3.3rem] object-cover'>
-        <img src="/DesignProcess.svg" alt="design process overview" className='w-full'/>
+        <Image src={`${prefix}/DesignProcess.svg`} alt="star" width={80} height={80} className='w-full' />
       </div>
     </div>
   );
