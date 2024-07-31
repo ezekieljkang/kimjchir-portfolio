@@ -65,13 +65,13 @@ const TestimonialSection: React.FC = () => {
             <button
               onClick={prevTestimonial}
               className="w-10 h-10 bg-no-repeat bg-center bg-contain"
-              style={{ backgroundImage: 'url(/leftarrow.svg)' }}
+              style={{ backgroundImage: `url(${prefix}/leftarrow.svg)` }}
             >
             </button>
             <button
               onClick={nextTestimonial}
               className="w-10 h-10 bg-no-repeat bg-center bg-contain"
-              style={{ backgroundImage: 'url(/rightarrow.svg)' }}
+              style={{ backgroundImage: `url(${prefix}/rightarrow.svg)` }}
             >
             </button>
           </div>

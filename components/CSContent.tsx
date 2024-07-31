@@ -9,6 +9,8 @@ interface HeaderProps {
 
 
 const CSContent: React.FC<HeaderProps> = ({ problemText, solutionText, resultText }) => {
+  const prefix = '/kimjchir-portfolio';
+
   return (
     <div className='px-[3rem] pt-[4.3rem]'>
       <div className='flex justify-between gap-[6rem]'>
@@ -44,12 +46,12 @@ const CSContent: React.FC<HeaderProps> = ({ problemText, solutionText, resultTex
       </div>
       <div className='flex justify-between font-robotoMono font-normal text-[15px] pt-[6rem] pb-[4rem] border-b border-black'>
         <div className='flex items-center gap-[1rem]'>
-          <button className="w-10 h-10 bg-no-repeat bg-center bg-contain" style={{ backgroundImage: 'url(/leftarrow.svg)' }}></button>
+          <button className="w-10 h-10 bg-no-repeat bg-center bg-contain" style={{ backgroundImage: `url(${prefix}/leftarrow.svg)` }}></button>
           <p>APP</p>
         </div>
         <div className='flex items-center gap-[1rem]'>
           <p>SITE REDESIGN</p>
-          <button className="w-10 h-10 bg-no-repeat bg-center bg-contain" style={{ backgroundImage: 'url(/rightarrow.svg)' }}></button>
+          <button className="w-10 h-10 bg-no-repeat bg-center bg-contain" style={{ backgroundImage: `url(${prefix}/rightarrow.svg)` }}></button>
         </div>
       </div>
     </div>
