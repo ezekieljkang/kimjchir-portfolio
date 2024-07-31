@@ -17,7 +17,7 @@ const Projects = () => {
     <div className='flex-2 md:border-l md:border-black md:pl-[2rem] lg:pl-[3rem]'>
       <div className='md:pb-[2.5rem]'>
         <Link href="/pages/PMC/NovaDesignSystem">
-          <Image src={`${prefix}/DesignSystem.svg`} alt="picture of a digital design system" width={80} height={80} className='w-full' />
+          <Image src={`${prefix}/DesignSystem.png`} alt="picture of a digital design system" width={80} height={80} className='w-full' />
         </Link>
         <p className='pt-[1rem] font-robotoMono text-[15px]'>DESIGN SYSTEM | PMC</p>
         <p className='pt-[.5rem] pb-[1.5rem] font-satoshi font-normal text-[30px] leading-[40px]'>
