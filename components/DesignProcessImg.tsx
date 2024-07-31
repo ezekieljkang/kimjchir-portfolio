@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 
 const DesignProcessImg = () => {
-  const prefix = process.env.NODE_ENV === 'production' ? '/kimjchir-portfolio' : '';
+  const prefix = '/kimjchir-portfolio';
 
   return (
     <div className='pl-[3.5rem] border-l border-black h-full'>

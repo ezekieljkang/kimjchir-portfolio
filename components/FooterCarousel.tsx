@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 const FooterCarousel = () => {
-  const prefix = process.env.NODE_ENV === 'production' ? '/kimjchir-portfolio' : '';
+  const prefix = '/kimjchir-portfolio';
 
   return (
     <div>

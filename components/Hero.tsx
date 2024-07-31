@@ -3,7 +3,7 @@ import NavBar from './NavBar';
 import Image from 'next/image';
 
 const Hero = () => {
-  const prefix = process.env.NODE_ENV === 'production' ? '/kimjchir-portfolio' : '';
+  const prefix = '/kimjchir-portfolio';
   
   return (
     <div className='px-[1.5rem] md:px-[3rem]'>
