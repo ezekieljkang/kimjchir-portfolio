@@ -1,11 +1,20 @@
+import Companies from "@/components/Companies";
+import Footer from "@/components/Footer";
+import FooterNavBar from "@/components/FooterNavBar";
 import Hero from "@/components/Hero";
-import Image from "next/image";
+import Projects from "@/components/Projects";
+import TestimonialSection from "@/components/TestimonialSection";
 
-export default function Home() {
+export default function Page() {
   return (
-    <main >
-      <div className="border border-black m-[24px] md:m-[32px]">
+    <main className="max-w-screen-[1620px] mx-auto" >
+      <div className="md:border border-black md:m-3">
         <Hero />
+        <Companies />
+        <Projects />
+        <TestimonialSection />
+        <Footer />
+        <FooterNavBar />
       </div>
     </main>
   );
