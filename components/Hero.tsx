@@ -25,20 +25,13 @@ const Hero = () => {
         </div>
         <div className='md:flex-1 py-[2rem] flex items-center'>
           <div className='relative w-full' style={{paddingBottom: '75%'}}>
-            <iframe
-              src="https://giphy.com/embed/fUQ4rhUZJYiQsas6WD"
-              width="100%"
-              height="100%"
-              style={{position: 'absolute', top: 0, left: 0}}
-              frameBorder="0"
-              className="giphy-embed rounded-xl"
-              allowFullScreen
-            ></iframe>
+            <Image
+              src={`${prefix}/profile.png`}
+              alt='selfie of designer'
+              width={100}
+              height={100}
+            />
           </div>
-          <p>
-            <a href="https://giphy.com/gifs/muppetwiki-sesame-street-muppets-elmo-fUQ4rhUZJYiQsas6WD">
-            </a>
-          </p>
         </div>
       </div>
     </div>
