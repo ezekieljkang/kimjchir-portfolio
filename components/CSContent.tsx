@@ -1,5 +1,6 @@
 import React from 'react';
 import NovaImg from './NovaImg';
+import Image from 'next/image';
 
 interface HeaderProps {
   problemText: string;
@@ -13,6 +14,15 @@ const CSContent: React.FC<HeaderProps> = ({ problemText, solutionText, resultTex
 
   return (
     <div className='px-[3rem] pt-[4.3rem]'>
+      <div className='border-b border-black pb-[4rem]'>
+            <Image 
+              src={`${prefix}/casestudypic.png`}
+              alt='pictures of redesigned websites'
+              width={1564}
+              height={935}
+              className='w-full object-cover'
+            />
+          </div>
       <div className='flex justify-between gap-[6rem]'>
         <div className='basis-1/3'>
         <div>
