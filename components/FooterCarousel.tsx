@@ -9,10 +9,10 @@ const FooterCarousel = () => {
         {[...Array(6)].map((_, index) => (
           <div key={index} className="flex items-center whitespace-nowrap font-clashDisplay font-normal text-xl space-x-2">
             <p>Let&apos;s work together! Contact me at</p>
-            <div className='relative inline-block py-[.5rem] hover:bg-gray-400 bg-black text-white px-[1.5rem]'>
+            <div className='relative inline-block py-[.5rem] hover:bg-gray-400 bg-black text-white px-[.5rem]'>
               <a
                 href='#'
-                onClick={() => navigator.clipboard.writeText('KIMBERLYJCHIR@GMAIL.COM')}
+                onClick={() => navigator.clipboard.writeText('KIMBERLYCHIR@GMAIL.COM')}
                 className='hover:text-gray-400 cursor-pointer relative group'
               >
                 kimberlychir@gmail.com
