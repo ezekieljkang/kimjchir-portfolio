@@ -24,12 +24,13 @@ const Hero = () => {
           <Image src={`${prefix}/star.svg`} alt="star" width={80} height={80} />
         </div>
         <div className='md:flex-1 py-[2rem] flex items-center'>
-          <div className='relative w-full' style={{paddingBottom: '75%'}}>
+          <div className='relative w-full'>
             <Image
               src={`${prefix}/profile.png`}
               alt='selfie of designer'
               width={100}
               height={100}
+              className='w-full object-cover'
             />
           </div>
         </div>
