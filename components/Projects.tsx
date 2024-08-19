@@ -9,7 +9,7 @@ const Projects = () => {
     <div className='px-[1.5rem] md:px-[3rem]'>
   <div className='border-b border-black md:flex md:justify-between pb-[3.5rem]'>
     <div className='flex-1 md:pr-[4rem] md:sticky md:top-5 h-full'>
-      <h2 className='text-[40px] md:text-left md:text-[78px] font-[500] pb-[1rem] font-clashDisplay'>FEATURED WORK</h2>
+      <h2 className='text-[40px] md:text-left md:text-[78px] font-[500] pb-[1rem] font-clashDisplay leading-[78px]'>FEATURED WORK</h2>
       <p className='font-satoshi font-extralight leading-7 text-[22px] pb-[2rem]'>
         Showcasing my most recent projects that blends creativity, strategy, and design.
       </p>

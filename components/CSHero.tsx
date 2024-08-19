@@ -19,7 +19,7 @@ const CSHero: React.FC<HeaderProps> = ({ company, heading, content, timeline, ro
       <NavBar />
       <div>
         <div>
-          <div className='flex justify-between py-[3.5rem] border-b border-black gap-[3rem]'>
+          <div className='flex justify-between py-[4rem] border-black gap-[3rem]'>
             <div className='basis-2/3'>
               <div className='border-r border-black'>
                 <Image src={`${prefix}/${company}`} alt="star" width={120} height={18} className='pb-[14px]' />
@@ -42,12 +42,13 @@ const CSHero: React.FC<HeaderProps> = ({ company, heading, content, timeline, ro
               </div>
             </div>
           </div>
-          <div>
+          <div className='border-b border-black pb-[4rem]'>
             <Image 
               src={`${prefix}/casestudypic.png`}
               alt='pictures of redesigned websites'
               width={100}
               height={100}
+              className='w-full object-cover'
             />
           </div>
         </div>
