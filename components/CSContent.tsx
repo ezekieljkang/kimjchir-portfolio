@@ -13,7 +13,7 @@ const CSContent: React.FC<HeaderProps> = ({ problemText, solutionText, resultTex
   const prefix = '/kimjchir-portfolio';
 
   return (
-    <div className='px-[3rem] pb-[4.3rem]'>
+    <div className='px-[3rem]'>
       <div className='border-b border-black pb-[4rem]'>
             <Image 
               src={`${prefix}/casestudypic.png`}
