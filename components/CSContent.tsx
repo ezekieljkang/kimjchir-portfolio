@@ -13,7 +13,7 @@ const CSContent: React.FC<HeaderProps> = ({ problemText, solutionText, resultTex
   const prefix = '/kimjchir-portfolio';
 
   return (
-    <div className='px-[3rem] pt-[4.3rem]'>
+    <div className='px-[3rem] pb-[4.3rem]'>
       <div className='border-b border-black pb-[4rem]'>
             <Image 
               src={`${prefix}/casestudypic.png`}
@@ -23,7 +23,7 @@ const CSContent: React.FC<HeaderProps> = ({ problemText, solutionText, resultTex
               className='w-full object-cover'
             />
           </div>
-      <div className='flex justify-between gap-[6rem]'>
+      <div className='flex justify-between gap-[6rem] pt-[4rem]'>
         <div className='basis-1/3'>
         <div>
           <div>
