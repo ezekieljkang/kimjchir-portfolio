@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 # Portfolio Website
 
-Welcome to my portfolio website! This project showcases my work as a Product/UX Designer specializing in digital media and publishing brands. Built using Next.js, this site features a dynamic and responsive design to highlight my skills, projects, and testimonials effectively.
+Welcome to my portfolio website project! This project showcases my work as a web developer using technologies like Next.js, this site features a dynamic and responsive design to highlight my skills.
 
 ## Project Overview
 
