@@ -27,7 +27,7 @@ const Projects = () => {
       <div className='md:flex md:justify-between md:border-t md:border-black md:pt-[2.5rem]'>
         <div className='flex-1 md:border-r md:border-black md:pr-[2rem]'>
           <Link href="/pages/PMC/DesignProcess">
-            <Image src={`${prefix}/macbook.png`} alt="a macbook computer" width={80} height={80} className='w-full' />
+          <Image src={`${prefix}/nova.gif`} alt="architecture flow chart" width={80} height={80} className='w-full rounded-xl' />
           </Link>
           <p className='pt-[1rem] font-robotoMono text-[15px]'>SITE REDESIGN | PMC</p>
           <p className='pt-[.5rem] pb-[1rem] font-satoshi text-[24px] leading-[32px]'>
