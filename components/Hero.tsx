@@ -28,8 +28,8 @@ const Hero = () => {
             <Image
               src={`${prefix}/profile.png`}
               alt='selfie of designer'
-              width={100}
-              height={100}
+              width={750}
+              height={640}
               className='w-full object-cover'
             />
           </div>
