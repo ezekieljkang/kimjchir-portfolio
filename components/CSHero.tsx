@@ -42,15 +42,6 @@ const CSHero: React.FC<HeaderProps> = ({ company, heading, content, timeline, ro
               </div>
             </div>
           </div>
-          <div className='border-b border-black pb-[4rem]'>
-            <Image 
-              src={`${prefix}/casestudypic.png`}
-              alt='pictures of redesigned websites'
-              width={1564}
-              height={935}
-              className='w-full object-cover'
-            />
-          </div>
         </div>
       </div>
     </div>
