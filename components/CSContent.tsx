@@ -18,15 +18,15 @@ const CSContent: React.FC<HeaderProps> = ({ problemText, solutionText, resultTex
         <div>
           <div>
             <h1 className='font-[500] text-[45px] font-clashDisplay pb-[1rem]'>PROBLEM</h1>
-            <p className='font-[400] text-[20px] font-satoshi pb-[4.25rem]'>{problemText}</p>
+            <p className='font-[300] text-[20px] font-satoshi pb-[4.25rem]'>{problemText}</p>
           </div>
           <div>
             <h1 className='font-[500] text-[45px] font-clashDisplay pb-[1rem]'>SOLUTION</h1>
-            <p className='font-[400] text-[20px] font-satoshi whitespace-pre-line pb-[4.25rem]'>{solutionText}</p>
+            <p className='font-[300] text-[20px] font-satoshi whitespace-pre-line pb-[4.25rem]'>{solutionText}</p>
           </div>
           <div>
             <h1 className='font-[500] text-[45px] font-clashDisplay pb-[1rem]'>RESULT</h1>
-            <p className='font-[400] text-[20px] font-satoshi pb-[4.25rem]'>{resultText}</p>
+            <p className='font-[300] text-[20px] font-satoshi pb-[4.25rem]'>{resultText}</p>
           </div>
         </div>
           <div className='font-robotoMono font-normal text-[15px]'>
