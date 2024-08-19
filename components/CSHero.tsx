@@ -23,7 +23,7 @@ const CSHero: React.FC<HeaderProps> = ({ company, heading, content, timeline, ro
             <div className='basis-2/3'>
               <div className='border-r border-black'>
                 <Image src={`${prefix}/${company}`} alt="star" width={120} height={18} className='pb-[14px]' />
-                <h1 className='text-[80px] font-[500] font-clashDisplay'>{heading}</h1>
+                <h1 className='text-[80px] font-[500] font-clashDisplay leading-[98px]'>{heading}</h1>
                 <p className='font-satoshi font-[400] text-[28px]'>{content}</p>
               </div>
             </div>

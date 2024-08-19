@@ -9,7 +9,7 @@ export default function Page() {
       <div className="md:border border-black md:m-3">
         <CSHero
           company='/PMCcolor.svg'
-          heading='DESIGN PROCESS'
+          heading='Design Process'
           content='I refined the design process at PMC, and led five redesigns (Indiewire, Stylecaster, TVLine, Artforum, TheFlowSpace, and more!)'
           timeline='EACH DESIGN PROCESS TOOK ABOUT 1-2MONTHS'
           role='PRODUCT DESIGNER'

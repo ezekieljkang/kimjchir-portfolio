@@ -9,7 +9,7 @@ export default function Page() {
       <div className="md:border border-black md:m-3">
         <CSHero
           company='/PMCcolor.svg'
-          heading='NOVA DESIGN SYSTEM'
+          heading='Nova Design System'
           content='I created a scalable design system for PMC, enabling a 40% decrease in redesign cycle time.'
           timeline='JANURARY 2024 – APRIL 2024'
           role='PRODUCT DESIGNER'
