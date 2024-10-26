@@ -73,7 +73,7 @@ const CSContent: React.FC<HeaderProps> = ({ problemText, solutionText, resultTex
         <div className='flex items-center gap-[1rem]'>
             <Link href="/pages/PMC/DesignProcess" className='group flex'>
               <p className='group-hover:text-gray-400 group-hover:underline'>SITE REDESIGN</p>
-              <button className="w-10 h-10 bg-no-repeat bg-center bg-contain group-hover:filter group-hover:invert group-hover:brightness-75" style={{ backgroundImage: `url(${prefix}/rightarrow.svg)` }}></button>
+              <button className="w-10 h-10 bg-no-repeat bg-center bg-contain group-hover:filter group-hover:invert group-hover:brightness-[0.5] group-hover:contrast-[1.25]" style={{ backgroundImage: `url(${prefix}/rightarrow.svg)` }}></button>
             </Link>
         </div>
       </div>
