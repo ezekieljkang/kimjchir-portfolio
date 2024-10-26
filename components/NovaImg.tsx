@@ -22,9 +22,9 @@ const NovaImg = () => {
         <Image src={`${prefix}/nova-img5.png`} alt="nova webpages" width={80} height={80} className='w-full' />
       </div>
       <div>
-        <div className='w-full bg-black rounded-2xl' >
-          <p className='font-bold text-center text-2xl leading-[30px] font-clashDisplay text-white'>RESULTS</p>
-          <Image src={`${prefix}/nova.gif`} alt="website gifs" width={80} height={80}/>
+        <div className='bg-black rounded-2xl' >
+          <p className='font-bold text-center text-2xl leading-[30px] font-clashDisplay text-white pt-8'>RESULTS</p>
+          <Image src={`${prefix}/nova.gif`} alt="website gifs" className='w-full'/>
         </div>
       </div>
     </div>
