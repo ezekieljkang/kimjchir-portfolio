@@ -70,11 +70,19 @@ const CSContent: React.FC<HeaderProps> = ({ problemText, solutionText, resultTex
           <button className="w-10 h-10 bg-no-repeat bg-center bg-contain" style={{ backgroundImage: `url(${prefix}/leftarrow.svg)` }}></button>
           <p>ECOMMERCE</p>
         </div>
-        <div className='flex items-center gap-[1rem]'>
-            <Link href="/pages/PMC/DesignProcess" className='group'>
-              <p className='group-hover:text-gray-400 group-hover:underline'>SITE REDESIGN</p>
-              <button className="w-10 h-10 bg-no-repeat bg-center bg-contain group-hover:bg-gray-400" style={{ backgroundImage: `url(${prefix}/rightarrow.svg)` }}></button>
-            </Link>
+        <div className="flex items-center gap-[1rem]">
+          <Link href="/pages/PMC/DesignProcess" className="group flex items-center gap-[1rem]">
+            <p className="group-hover:text-gray-400 group-hover:underline">SITE REDESIGN</p>
+            <button className="w-10 h-10 rounded-lg bg-gray-400 flex items-center justify-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                className="w-6 h-6 fill-current text-black group-hover:text-gray-400"
+              >
+                <path d="M4 12l1.41-1.41L10 14.17V4h2v10.17l4.59-4.59L18 12l-8 8-8-8z" />
+              </svg>
+            </button>
+          </Link>
         </div>
       </div>
     </div>
