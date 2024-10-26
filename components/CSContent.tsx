@@ -1,6 +1,7 @@
 import React from 'react';
 import NovaImg from './NovaImg';
 import Image from 'next/image';
+import Link from 'next/link';
 
 interface HeaderProps {
   problemText: string;
@@ -67,11 +68,13 @@ const CSContent: React.FC<HeaderProps> = ({ problemText, solutionText, resultTex
       <div className='flex justify-between font-robotoMono font-normal text-[15px] pt-[6rem] pb-[4rem] border-b border-black'>
         <div className='flex items-center gap-[1rem]'>
           <button className="w-10 h-10 bg-no-repeat bg-center bg-contain" style={{ backgroundImage: `url(${prefix}/leftarrow.svg)` }}></button>
-          <p>APP</p>
+          <p>ECOMMERCE</p>
         </div>
         <div className='flex items-center gap-[1rem]'>
           <p>SITE REDESIGN</p>
-          <button className="w-10 h-10 bg-no-repeat bg-center bg-contain" style={{ backgroundImage: `url(${prefix}/rightarrow.svg)` }}></button>
+          <Link href="/pages/PMC/DesignProcess">
+            <button className="w-10 h-10 bg-no-repeat bg-center bg-contain" style={{ backgroundImage: `url(${prefix}/rightarrow.svg)` }}></button>
+          </Link>
         </div>
       </div>
     </div>
