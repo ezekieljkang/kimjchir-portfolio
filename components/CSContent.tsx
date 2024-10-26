@@ -42,11 +42,11 @@ const CSContent: React.FC<HeaderProps> = ({ problemText, solutionText, resultTex
           <div className='font-robotoMono font-normal text-[15px]'>
             <p className='pb-[1rem] text-customGray'>REDESIGNED SITES WITH NOVA IN 2024:</p>
             <div>
-              <p>indiewire.com</p>
-              <p>stylecaster.com</p>
-              <p>tvline.com</p>
-              <p>artforum.com</p>
-              <p>theflowspace.com</p>
+              <a href='https://www.indiewire.com/'>indiewire.com</a>
+              <a href='https://stylecaster.com/'>stylecaster.com</a>
+              <a href='https://tvline.com/'>tvline.com</a>
+              <a href='https://www.artforum.com/'>artforum.com</a>
+              <a href='https://www.theflowspace.com/'>theflowspace.com</a>
             </div>
           </div>
         </div>
