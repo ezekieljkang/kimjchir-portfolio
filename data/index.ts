@@ -1,13 +1,13 @@
 export const companies = [
   {
     id: 1,
-    name: "PMC",
-    img: "/pmc.svg",
+    name: "YourTango",
+    img: "/yourtango.svg",
   },
   {
     id: 2,
-    name: "YourTango",
-    img: "/yourtango.svg",
+    name: "PMC",
+    img: "/pmc.svg",
   },
   {
     id: 3,
@@ -107,7 +107,7 @@ export const companies = [
   {
     id: 22,
     name: "Sourcing Journal",
-    img: "/sourcing.svg",
+    img: "/sourcingjournal.svg",
   },
   {
     id: 23,
