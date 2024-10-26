@@ -18,7 +18,7 @@ const CompaniesCarousel = () => {
           direction="left" // or "right"
           speed="normal"   // or "fast", "slow"
           pauseOnHover={true}
-          className="my-custom-class space-x-[1rem]"
+          className="my-custom-class"
         />
       </div>
     </div>
