@@ -23,8 +23,8 @@ const NovaImg = () => {
       </div>
       <div>
         <div className='bg-black rounded-2xl' >
-          <p className='font-bold text-center text-2xl leading-[30px] font-clashDisplay text-white pt-8'>RESULTS</p>
-          <Image src={`${prefix}/nova.gif`} alt="website gifs" className='w-full'/>
+          <p className='font-bold text-center text-2xl leading-[30px] font-clashDisplay text-white pt-8 pb-4'>RESULTS</p>
+          <Image src={`${prefix}/nova.gif`} alt="website gifs" className='w-full px-7'/>
         </div>
       </div>
     </div>
