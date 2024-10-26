@@ -20,7 +20,7 @@ const Projects = () => {
           <Image src={`${prefix}/DesignSystem.png`} alt="picture of a digital design system" width={80} height={80} className='w-full' />
         </Link>
         <p className='pt-[1rem] font-robotoMono text-[15px]'>DESIGN SYSTEM | PMC</p>
-        <p className='pt-[.5rem] pb-[1.5rem] font-satoshi font-normal text-[30px] leading-[40px]'>
+        <p className='pt-[.5rem] pb-[1.5rem] font-satoshi font-light text-[30px] leading-[40px]'>
           Built A Scalable Design System, Leading To A 40% Reduction In Redesign Cycle Times.
         </p>
       </div>
@@ -30,14 +30,14 @@ const Projects = () => {
           <Image src={`${prefix}/nova.gif`} alt="architecture flow chart" width={80} height={80} className='w-full rounded-xl' />
           </Link>
           <p className='pt-[1rem] font-robotoMono text-[15px]'>SITE REDESIGN | PMC</p>
-          <p className='pt-[.5rem] pb-[1rem] font-satoshi text-[24px] leading-[32px]'>
+          <p className='pt-[.5rem] pb-[1rem] font-satoshi font-light text-[24px] leading-[32px]'>
             Refined The Design Process, And Led Five Successful Redesigns.
           </p>
         </div>
         <div className='flex-1 md:pl-[2rem]'>
           <Image src={`${prefix}/macbook.png`} alt="a macbook computer" width={80} height={80} className='w-full' />
           <p className='pt-[1rem] font-robotoMono text-[15px]'>ECOMMERCE | PMC</p>
-          <p className='pt-[.5rem] font-satoshi text-[24px] leading-[32px]'>
+          <p className='pt-[.5rem] font-satoshi font-light text-[24px] leading-[32px]'>
             Standardizing The E-commerce Experience In Digital Publishing Brands.
           </p>
         </div>
