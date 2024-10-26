@@ -71,12 +71,10 @@ const CSContent: React.FC<HeaderProps> = ({ problemText, solutionText, resultTex
           <p>ECOMMERCE</p>
         </div>
         <div className='flex items-center gap-[1rem]'>
-          <div className='hover:text-gray-400 hover:underline'>
-            <Link href="/pages/PMC/DesignProcess">
-              <p>SITE REDESIGN</p>
-              <button className="w-10 h-10 bg-no-repeat bg-center bg-contain" style={{ backgroundImage: `url(${prefix}/rightarrow.svg)` }}></button>
+            <Link href="/pages/PMC/DesignProcess" className='group'>
+              <p className='group-hover:text-gray-400 group-hover:underline'>SITE REDESIGN</p>
+              <button className="w-10 h-10 bg-no-repeat bg-center bg-contain group-hover:bg-gray-400" style={{ backgroundImage: `url(${prefix}/rightarrow.svg)` }}></button>
             </Link>
-          </div>
         </div>
       </div>
     </div>
