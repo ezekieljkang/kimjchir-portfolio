@@ -6,93 +6,93 @@ export const companies = [
   },
   {
     id: 2,
+    name: "YourTango",
+    img: "/yourtango.svg",
+  },
+  {
+    id: 3,
     name: "Rolling Stone",
     img: "/rollingstone.svg",
   },
   {
-    id: 3,
+    id: 4,
     name: "Variety",
     img: "/variety.svg",
   },
   {
-    id: 4,
+    id: 5,
     name: "billboard",
     img: "/billboard.svg",
   },
   {
-    id: 5,
+    id: 6,
     name: "The Hollywood Reporter",
     img: "/hollywood.svg",
   },
   {
-    id: 6,
+    id: 7,
     name: "WWD",
     img: "/wwd.svg",
   },
   {
-    id: 7,
-    name: "TVLine",
-    img: "/tvline.svg",
+    id: 8,
+    name: "SheKnows",
+    img: "/sheknows.svg",
   },
   {
-    id: 8,
+    id: 9,
     name: "Indie Wire",
     img: "/indiewire.svg",
   },
   {
-    id: 9,
+    id: 10,
+    name: "TVLine",
+    img: "/tvline.svg",
+  },
+  {
+    id: 11,
     name: "Robb Report",
     img: "/robbreport.svg",
   },
   {
-    id: 10,
-    name: "She Media",
-    img: "/she.svg",
-  },
-  {
-    id: 11,
+    id: 12,
     name: "Style Caster",
     img: "/stylecaster.svg",
   },
   {
-    id: 12,
+    id: 13,
+    name: "Deadline",
+    img: "/deadline.svg",
+  },
+  {
+    id: 14,
     name: "ArtForum",
     img: "/artforum.svg",
   },
   {
-    id: 13,
-    name: "Flow Space",
-    img: "/flowspace.svg",
-  },
-  {
-    id: 14,
-    name: "Spy",
-    img: "/spy.svg",
-  },
-  {
     id: 15,
-    name: "ARTnews",
-    img: "/artnews.svg",
-  },
-  {
-    id: 16,
     name: "Art in America",
     img: "/artinamerica.svg",
   },
   {
+    id: 16,
+    name: "ARTnews",
+    img: "/artnews.svg",
+  },
+  {
     id: 17,
-    name: "Sourcing Journal",
-    img: "/sourcing.svg",
+    name: "Spy",
+    img: "/spy.svg",
   },
   {
     id: 18,
-    name: "LA3C",
-    img: "/la3c.svg",
+    name: "Flow",
+    img: "/flowspace.svg",
   },
   {
     id: 19,
-    name: "rivet",
-    img: "/rivet.svg",
+    name: "FN",
+    img: "/fn.svg",
   },
   {
     id: 20,
@@ -101,15 +101,31 @@ export const companies = [
   },
   {
     id: 21,
+    name: "Soaps",
+    img: "/soaps.svg",
+  },
+  {
+    id: 22,
+    name: "Sourcing Journal",
+    img: "/sourcing.svg",
+  },
+  {
+    id: 23,
+    name: "Vibe",
+    img: "/vibe.svg",
+  },
+  {
+    id: 24,
     name: "atx TV",
     img: "/atxtv.svg",
   },
   {
-    id: 22,
-    name: "FN",
-    img: "/fn.svg",
+    id: 25,
+    name: "LA3C",
+    img: "/la3c.svg",
   },
 ];
+
 
 export const testimonials = [
   {
