@@ -23,10 +23,12 @@ export const InfiniteMovingCards = ({
 }) => {
   const containerRef = React.useRef<HTMLDivElement>(null);
   const scrollerRef = React.useRef<HTMLUListElement>(null);
+  const [clonedItems, setClonedItems] = useState(items);
 
   useEffect(() => {
-    addAnimation();
-  }, []);
+    addAnimation(),
+    setClonedItems([...items, ...items]);
+  }, [items]);
 
   const [start, setStart] = useState(false);
 

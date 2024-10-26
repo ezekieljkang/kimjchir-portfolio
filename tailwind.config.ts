@@ -21,16 +21,16 @@ const config: Config = {
         'infinite-scroll': 'infinite-scroll 65s linear infinite',
         fadeIn: 'fadeIn 300ms ease-in-out',
         fadeOut: 'fadeOut 300ms ease-in-out',
-        scroll: 'scroll 100s linear infinite',
+        scroll: 'scroll 65s linear infinite',
       },
       keyframes: {
         'infinite-scroll': {
-          from: { transform: 'translateX(0%)' },
-          to: { transform: 'translateX(-100%)' },
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' },  // Modified to -50% for smooth looping
         },
         scroll: {
           '0%': { transform: 'translateX(0)' },
-          '100%': { transform: 'translateX(-100%)' },
+          '100%': { transform: 'translateX(-50%)' },  // Modified to -50% for seamless scrolling
         },
         fadeIn: {
           from: { opacity: '0' },
