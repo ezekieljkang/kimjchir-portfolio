@@ -43,19 +43,19 @@ const CSContent: React.FC<HeaderProps> = ({ problemText, solutionText, resultTex
             <p className='pb-[1rem] text-customGray'>REDESIGNED SITES WITH NOVA IN 2024:</p>
             <div>
               <div className='hover:underline hover:text-gray-400'>
-                <a href='https://www.indiewire.com/'>indiewire.com</a>
+                <a href='https://www.indiewire.com/' target='_blank'>indiewire.com</a>
               </div>
               <div className='hover:underline hover:text-gray-400'>
-                <a href='https://stylecaster.com/'>stylecaster.com</a>
+                <a href='https://stylecaster.com/' target='_blank'>stylecaster.com</a>
               </div>
               <div className='hover:underline hover:text-gray-400'>
-                <a href='https://tvline.com/'>tvline.com</a>
+                <a href='https://tvline.com/' target='_blank'>tvline.com</a>
               </div>
               <div className='hover:underline hover:text-gray-400'>
-                <a href='https://www.artforum.com/'>artforum.com</a>
+                <a href='https://www.artforum.com/' target='_blank'>artforum.com</a>
               </div>
               <div className='hover:underline hover:text-gray-400'>
-                <a href='https://www.theflowspace.com/'>theflowspace.com</a>
+                <a href='https://www.theflowspace.com/' target='_blank'>theflowspace.com</a>
               </div>
             </div>
           </div>
