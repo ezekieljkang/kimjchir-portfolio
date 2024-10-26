@@ -23,7 +23,7 @@ const CSContent: React.FC<HeaderProps> = ({ problemText, solutionText, resultTex
               height={935}
               className='w-full object-cover'
             />
-          </div>
+      </div>
       <div className='flex justify-between gap-[6rem] pt-[4rem]'>
         <div className='basis-1/3'>
         <div>
