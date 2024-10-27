@@ -19,8 +19,8 @@ const CSContent2: React.FC<HeaderProps> = ({ problemText, solutionText}) => {
 
 
   return (
-    <div className='px-[3rem] pt-[4.3rem]'>
-      <div className='border-b border-black pb-[4rem]'>
+    <div className='px-[3rem]'>
+      <div className='border-b border-black pb-[4rem] relative'>
             <Image 
               src={`${prefix}/macbook-bg.png`}
               alt='macbook with gif for screen'
@@ -28,8 +28,18 @@ const CSContent2: React.FC<HeaderProps> = ({ problemText, solutionText}) => {
               height={935}
               className='w-full object-cover'
             />
+
+          <div className="absolute inset-0 flex justify-center items-center">
+            <Image 
+              src={`${prefix}/nova.gif`}
+              alt="GIF screen content"
+              width={800} // Adjust width as needed
+              height={500} // Adjust height as needed
+              className="object-cover"
+            />
+          </div>
       </div>
-      <div className='flex justify-between gap-[6rem]'>
+      <div className='flex justify-between gap-[6rem] pt-[4rem]'>
         <div className='basis-1/3'>
           <div>
             <div>
