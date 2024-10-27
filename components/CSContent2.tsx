@@ -29,7 +29,7 @@ const CSContent2: React.FC<HeaderProps> = ({ problemText, solutionText}) => {
               className='w-full object-cover'
             />
 
-          <div className="absolute top-[5.5rem] flex justify-center items-start w-[950px]">
+          <div className="absolute top-[5.5rem] left-[26.25rem] flex justify-center items-start w-[950px]">
             <Image 
               src={`${prefix}/nova.gif`}
               alt="GIF screen content"
