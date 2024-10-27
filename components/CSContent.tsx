@@ -77,13 +77,13 @@ const CSContent: React.FC<HeaderProps> = ({ problemText, solutionText, resultTex
               onMouseEnter={() => setIsHovered(true)}
               onMouseLeave={() => setIsHovered(false)}
               >
-              <p className='group-hover:text-gray-400 group-hover:underline'>ECOM</p>
               <button 
                 className="w-10 h-10 bg-no-repeat bg-center bg-contain"
                 style={{ 
                   backgroundImage: isHovered
                     ? `url(${prefix}/gray-left-arrow.svg)`
                     : `url(${prefix}/leftarrow.svg)` }}></button>
+              <p className='group-hover:text-gray-400 group-hover:underline'>ECOM</p>
             </Link>
         </div>
         <div>
