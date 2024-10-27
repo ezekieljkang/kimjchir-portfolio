@@ -29,13 +29,13 @@ const CSContent2: React.FC<HeaderProps> = ({ problemText, solutionText}) => {
               className='w-full object-cover'
             />
 
-          <div className="absolute inset-0 flex justify-center items-center">
+          <div className="absolute inset-[5.5rem 0] flex justify-center items-start w-[950px]">
             <Image 
               src={`${prefix}/nova.gif`}
               alt="GIF screen content"
-              width={800} // Adjust width as needed
+              width={950} // Adjust width as needed
               height={500} // Adjust height as needed
-              className="object-cover"
+              className="object-cover rounded"
             />
           </div>
       </div>
