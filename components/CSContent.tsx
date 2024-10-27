@@ -2,6 +2,7 @@ import React from 'react';
 import NovaImg from './NovaImg';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useState } from 'react';
 
 interface HeaderProps {
   problemText: string;
@@ -12,6 +13,7 @@ interface HeaderProps {
 
 const CSContent: React.FC<HeaderProps> = ({ problemText, solutionText, resultText }) => {
   const prefix = '/kimjchir-portfolio';
+  const [isHovered, setIsHovered] = useState(false);
 
   return (
     <div className='px-[3rem]'>
@@ -71,9 +73,19 @@ const CSContent: React.FC<HeaderProps> = ({ problemText, solutionText, resultTex
           <p>ECOMMERCE</p>
         </div>
         <div className='flex items-center gap-[1rem]'>
-            <Link href="/pages/PMC/DesignProcess" className='group flex'>
+            <Link 
+              href="/pages/PMC/DesignProcess" 
+              className='group flex' 
+              onMouseEnter={() => setIsHovered(true)}
+              onMouseLeave={() => setIsHovered(false)}
+              >
               <p className='group-hover:text-gray-400 group-hover:underline'>SITE REDESIGN</p>
-              <button className="w-10 h-10 bg-no-repeat bg-center bg-contain group-hover:filter group-hover:invert group-hover:brightness-[0.5] group-hover:contrast-[1.25]" style={{ backgroundImage: `url(${prefix}/rightarrow.svg)` }}></button>
+              <button 
+                className="w-10 h-10 bg-no-repeat bg-center bg-contain"
+                style={{ 
+                  backgroundImage: isHovered
+                    ? `url(${prefix}/rightarrow.svg)`
+                    : `url(${prefix}/gray-right-arrow.svg)` }}></button>
             </Link>
         </div>
       </div>
