@@ -70,14 +70,26 @@ const CSContent: React.FC<HeaderProps> = ({ problemText, solutionText, resultTex
         </div>
       </div>
       <div className='flex justify-between font-robotoMono font-normal text-[15px] pt-[6rem] pb-[4rem] border-b border-black'>
-        <div className='flex items-center gap-[1rem]'>
-          <button className="w-10 h-10 bg-no-repeat bg-center bg-contain" style={{ backgroundImage: `url(${prefix}/leftarrow.svg)` }}></button>
-          <p>ECOMMERCE</p>
-        </div>
-        <div className='flex items-center gap-[1rem]'>
+        <div>
             <Link 
               href="/pages/PMC/DesignProcess" 
-              className='group flex items-center' 
+              className='group flex items-center gap-[1rem]' 
+              onMouseEnter={() => setIsHovered(true)}
+              onMouseLeave={() => setIsHovered(false)}
+              >
+              <p className='group-hover:text-gray-400 group-hover:underline'>ECOMMERCE</p>
+              <button 
+                className="w-10 h-10 bg-no-repeat bg-center bg-contain"
+                style={{ 
+                  backgroundImage: isHovered
+                    ? `url(${prefix}/gray-left-arrow.svg)`
+                    : `url(${prefix}/leftarrow.svg)` }}></button>
+            </Link>
+        </div>
+        <div>
+            <Link 
+              href="/pages/PMC/DesignProcess" 
+              className='group flex items-center gap-[1rem]' 
               onMouseEnter={() => setIsHovered(true)}
               onMouseLeave={() => setIsHovered(false)}
               >
