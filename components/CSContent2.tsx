@@ -1,6 +1,9 @@
+'use client';
+
 import React from 'react';
 import DesignProcessImg from './DesignProcessImg';
 import Link from 'next/link';
+import { useState } from 'react';
 
 interface HeaderProps {
   problemText: string;
@@ -10,6 +13,9 @@ interface HeaderProps {
 
 const CSContent2: React.FC<HeaderProps> = ({ problemText, solutionText}) => {
   const prefix = '/kimjchir-portfolio';
+  const [isHoveredFirst, setIsHoveredFirst] = useState(false);
+  const [isHoveredSecond, setIsHoveredSecond] = useState(false);
+
 
   return (
     <div className='px-[3rem] pt-[4.3rem]'>
@@ -63,15 +69,38 @@ const CSContent2: React.FC<HeaderProps> = ({ problemText, solutionText}) => {
         </div>
       </div>
       <div className='flex justify-between font-robotoMono font-normal text-[15px] pt-[6rem] pb-[4rem] border-b border-black'>
-        <div className='flex items-center gap-[1rem]'>
-          <Link href="/pages/PMC/NovaDesignSystem">
-            <button className="w-10 h-10 bg-no-repeat bg-center bg-contain" style={{ backgroundImage: `url(${prefix}/leftarrow.svg)` }}></button>
-          </Link>
-          <p>DESIGN SYSTEM</p>
+        <div>
+          <Link 
+              href="/pages/PMC/NovaDesignSystem" 
+              className='group flex items-center gap-[1rem]' 
+              onMouseEnter={() => setIsHoveredFirst(true)}
+              onMouseLeave={() => setIsHoveredFirst(false)}
+              >
+              <button 
+                className="w-10 h-10 bg-no-repeat bg-center bg-contain"
+                style={{ 
+                  backgroundImage: isHoveredFirst
+                    ? `url(${prefix}/gray-left-arrow.svg)`
+                    : `url(${prefix}/leftarrow.svg)` }}></button>
+              <p className='group-hover:text-gray-400 group-hover:underline'>DESIGN SYSTEM</p>
+            </Link>
         </div>
-        <div className='flex items-center gap-[1rem]'>
-          <p>ECOM</p>
-          <button className="w-10 h-10 bg-no-repeat bg-center bg-contain" style={{ backgroundImage: `url(${prefix}/rightarrow.svg)` }}></button>
+        <div>
+          <Link 
+              // Change href to ECOM when updated
+              href="/pages/PMC/DesignProcess" 
+              className='group flex items-center gap-[1rem]' 
+              onMouseEnter={() => setIsHoveredSecond(true)}
+              onMouseLeave={() => setIsHoveredSecond(false)}
+              >
+              <p className='group-hover:text-gray-400 group-hover:underline'>ECOM</p>
+              <button 
+                className="w-10 h-10 bg-no-repeat bg-center bg-contain"
+                style={{ 
+                  backgroundImage: isHoveredSecond
+                    ? `url(${prefix}/gray-right-arrow.svg)`
+                    : `url(${prefix}/rightarrow.svg)` }}></button>
+            </Link>
         </div>
       </div>
     </div>

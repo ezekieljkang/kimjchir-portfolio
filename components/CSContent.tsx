@@ -15,7 +15,8 @@ interface HeaderProps {
 
 const CSContent: React.FC<HeaderProps> = ({ problemText, solutionText, resultText }) => {
   const prefix = '/kimjchir-portfolio';
-  const [isHovered, setIsHovered] = useState(false);
+  const [isHoveredFirst, setIsHoveredFirst] = useState(false);
+  const [isHoveredSecond, setIsHoveredSecond] = useState(false);
 
   return (
     <div className='px-[3rem]'>
@@ -72,15 +73,16 @@ const CSContent: React.FC<HeaderProps> = ({ problemText, solutionText, resultTex
       <div className='flex justify-between font-robotoMono font-normal text-[15px] pt-[6rem] pb-[4rem] border-b border-black'>
         <div>
             <Link 
+              // Update href to ECOM when available
               href="/pages/PMC/DesignProcess" 
               className='group flex items-center gap-[1rem]' 
-              onMouseEnter={() => setIsHovered(true)}
-              onMouseLeave={() => setIsHovered(false)}
+              onMouseEnter={() => setIsHoveredFirst(true)}
+              onMouseLeave={() => setIsHoveredFirst(false)}
               >
               <button 
                 className="w-10 h-10 bg-no-repeat bg-center bg-contain"
                 style={{ 
-                  backgroundImage: isHovered
+                  backgroundImage: isHoveredFirst
                     ? `url(${prefix}/gray-left-arrow.svg)`
                     : `url(${prefix}/leftarrow.svg)` }}></button>
               <p className='group-hover:text-gray-400 group-hover:underline'>ECOM</p>
@@ -90,14 +92,14 @@ const CSContent: React.FC<HeaderProps> = ({ problemText, solutionText, resultTex
             <Link 
               href="/pages/PMC/DesignProcess" 
               className='group flex items-center gap-[1rem]' 
-              onMouseEnter={() => setIsHovered(true)}
-              onMouseLeave={() => setIsHovered(false)}
+              onMouseEnter={() => setIsHoveredSecond(true)}
+              onMouseLeave={() => setIsHoveredSecond(false)}
               >
               <p className='group-hover:text-gray-400 group-hover:underline'>SITE REDESIGN</p>
               <button 
                 className="w-10 h-10 bg-no-repeat bg-center bg-contain"
                 style={{ 
-                  backgroundImage: isHovered
+                  backgroundImage: isHoveredSecond
                     ? `url(${prefix}/gray-right-arrow.svg)`
                     : `url(${prefix}/rightarrow.svg)` }}></button>
             </Link>
