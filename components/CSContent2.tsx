@@ -27,10 +27,10 @@ const CSContent2: React.FC<HeaderProps> = ({ problemText, solutionText}) => {
           <div>
             <h1 className='font-[500] text-[45px] font-clashDisplay pb-[1rem]'>RESULT</h1>
             <div>
-              <ul className='font-[300] text-[20px] font-satoshi pb-[4.25rem]'>
-                <li><em>Enhanced Brand Alignment:</em> Websites are more aligned with brand needs and content strategies, allowing editors to better communicate to their target audience. </li>
-                <li><em>Improved Cross-Departmental Efficiency:</em> Streamlined communication and approval processes have minimized bottleneck, allowing for more coordinated progress across advertising, sales, marketing, engineering, and project management teams.</li>
-                <li><em>Higher Stakeholder Satisfaction:</em> Brand editors and other stakeholders feel more involved and heard about their site problems, leading to greater satisfaction with the final outcome and reducing post-launch revisions.</li>
+              <ul className='font-[300] text-[20px] font-satoshi pb-[4.25rem] list-disc'>
+                <li><strong>Enhanced Brand Alignment:</strong> Websites are more aligned with brand needs and content strategies, allowing editors to better communicate to their target audience.</li>
+                <li><strong>Improved Cross-Departmental Efficiency:</strong> Streamlined communication and approval processes have minimized bottleneck, allowing for more coordinated progress across advertising, sales, marketing, engineering, and project management teams.</li>
+                <li><strong>Higher Stakeholder Satisfaction:</strong> Brand editors and other stakeholders feel more involved and heard about their site problems, leading to greater satisfaction with the final outcome and reducing post-launch revisions.</li>
               </ul>
             </div>
           </div>
