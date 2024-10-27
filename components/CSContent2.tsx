@@ -3,6 +3,7 @@
 import React from 'react';
 import DesignProcessImg from './DesignProcessImg';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 
 interface HeaderProps {
@@ -19,6 +20,15 @@ const CSContent2: React.FC<HeaderProps> = ({ problemText, solutionText}) => {
 
   return (
     <div className='px-[3rem] pt-[4.3rem]'>
+      <div className='border-b border-black pb-[4rem]'>
+            <Image 
+              src={`${prefix}/macbook-bg.png`}
+              alt='macbook with gif for screen'
+              width={1564}
+              height={935}
+              className='w-full object-cover'
+            />
+      </div>
       <div className='flex justify-between gap-[6rem]'>
         <div className='basis-1/3'>
           <div>
