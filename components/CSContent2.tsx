@@ -5,11 +5,10 @@ import Link from 'next/link';
 interface HeaderProps {
   problemText: string;
   solutionText: string;
-  resultText: string;
 };
 
 
-const CSContent2: React.FC<HeaderProps> = ({ problemText, solutionText, resultText }) => {
+const CSContent2: React.FC<HeaderProps> = ({ problemText, solutionText}) => {
   const prefix = '/kimjchir-portfolio';
 
   return (
@@ -27,7 +26,13 @@ const CSContent2: React.FC<HeaderProps> = ({ problemText, solutionText, resultTe
           </div>
           <div>
             <h1 className='font-[500] text-[45px] font-clashDisplay pb-[1rem]'>RESULT</h1>
-            <p className='font-[300] text-[20px] font-satoshi pb-[4.25rem]'>{resultText}</p>
+            <div>
+              <ul className='font-[300] text-[20px] font-satoshi pb-[4.25rem]'>
+                <li><em>Enhanced Brand Alignment:</em> Websites are more aligned with brand needs and content strategies, allowing editors to better communicate to their target audience. </li>
+                <li><em>Improved Cross-Departmental Efficiency:</em> Streamlined communication and approval processes have minimized bottleneck, allowing for more coordinated progress across advertising, sales, marketing, engineering, and project management teams.</li>
+                <li><em>Higher Stakeholder Satisfaction:</em> Brand editors and other stakeholders feel more involved and heard about their site problems, leading to greater satisfaction with the final outcome and reducing post-launch revisions.</li>
+              </ul>
+            </div>
           </div>
         </div>
         </div>
@@ -43,7 +48,7 @@ const CSContent2: React.FC<HeaderProps> = ({ problemText, solutionText, resultTe
           <p>DESIGN SYSTEM</p>
         </div>
         <div className='flex items-center gap-[1rem]'>
-          <p>ECOMMERCE</p>
+          <p>ECOM</p>
           <button className="w-10 h-10 bg-no-repeat bg-center bg-contain" style={{ backgroundImage: `url(${prefix}/rightarrow.svg)` }}></button>
         </div>
       </div>
