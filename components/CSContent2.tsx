@@ -30,7 +30,7 @@ const CSContent2: React.FC<HeaderProps> = ({ problemText, solutionText}) => {
               className='w-full object-cover'
             />
 
-          <div className="absolute top-[30%] left-[50%] transform -translate-x-1/2 -translate-y-1/2   flex justify-center items-center w-[60vw] max-w-[950px]">
+          <div className="absolute top-[32.5%] left-[50%] transform -translate-x-1/2 -translate-y-1/2   flex justify-center items-center w-[60vw] max-w-[950px]">
             <Image 
               src={`${prefix}/nova.gif`}
               layout='responsive'
