@@ -24,14 +24,16 @@ const CSContent2: React.FC<HeaderProps> = ({ problemText, solutionText}) => {
             <Image 
               src={`${prefix}/macbook-bg.png`}
               alt='macbook with gif for screen'
+              layout='responsive'
               width={1564}
               height={935}
               className='w-full object-cover'
             />
 
-          <div className="absolute top-[5.5rem] left-[26.25rem] flex justify-center items-start w-[950px]">
+          <div className="absolute top-[30%] left-[50%] transform -translate-x-1/2 -translate-y-1/2   flex justify-center items-center w-[60vw] max-w-[950px]">
             <Image 
               src={`${prefix}/nova.gif`}
+              layout='responsive'
               alt="GIF screen content"
               width={950} // Adjust width as needed
               height={500} // Adjust height as needed
