@@ -26,7 +26,7 @@ const CSContent2: React.FC<HeaderProps> = ({ problemText, solutionText}) => {
               alt='GIF screen content'
               width={1564}
               height={935}
-              className='w-full object-cover'
+              className='w-full object-cover rounded-2xl'
             />
       </div>
       <div className='flex justify-between gap-[6rem] pt-[4rem]'>
