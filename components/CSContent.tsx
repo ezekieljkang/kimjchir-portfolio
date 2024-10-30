@@ -46,7 +46,7 @@ const CSContent: React.FC<HeaderProps> = ({ problemText, solutionText, resultTex
           </div>
         </div>
           <div className='font-robotoMono font-normal text-[15px]'>
-            <p className='pb-[1rem] text-customGray'>REDESIGNED SITES WITH NOVA IN 2024:</p>
+            <p className='pb-[1rem] text-customGray'>REDESIGNED SITES:</p>
             <div>
               <div className='hover:underline hover:text-gray-400'>
                 <a href='https://www.indiewire.com/' target='_blank'>indiewire.com</a>
