@@ -22,24 +22,12 @@ const CSContent2: React.FC<HeaderProps> = ({ problemText, solutionText}) => {
     <div className='px-[3rem]'>
       <div className='border-b border-black pb-[4rem] relative'>
             <Image 
-              src={`${prefix}/macbook-bg.png`}
-              alt='macbook with gif for screen'
-              layout='responsive'
+              src={`${prefix}/nova.gif`}
+              alt='GIF screen content'
               width={1564}
               height={935}
               className='w-full object-cover'
             />
-
-          <div className="absolute top-[32.5%] left-[50%] transform -translate-x-1/2 -translate-y-1/2   flex justify-center items-center w-[60vw] max-w-[950px]">
-            <Image 
-              src={`${prefix}/nova.gif`}
-              layout='responsive'
-              alt="GIF screen content"
-              width={950} // Adjust width as needed
-              height={500} // Adjust height as needed
-              className="object-cover rounded"
-            />
-          </div>
       </div>
       <div className='flex justify-between gap-[6rem] pt-[4rem]'>
         <div className='basis-1/3'>
